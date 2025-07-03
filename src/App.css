@@ -1,0 +1,183 @@
+.App {
+  font-family: Arial, sans-serif;
+  max-width: 1600px; /* Aumentato da 1200px a 1600px per un'interfaccia più larga */
+  margin: 0 auto;
+  padding: 30px; /* Aumentato il padding per bilanciare lo spazio */
+  background-color: #f0f4f8;
+}
+
+.App-header {
+  background-color: #2c3e50;
+  color: white;
+  padding: 30px; /* Aumentato il padding per coerenza */
+  text-align: center;
+  border-radius: 8px;
+  margin-bottom: 40px; /* Aumentato il margine inferiore */
+}
+
+.account-info {
+  margin-top: 15px; /* Leggermente aumentato */
+}
+
+.owner-status {
+  font-weight: bold;
+  padding: 8px 15px; /* Leggermente aumentato per maggiore visibilità */
+  border-radius: 4px;
+}
+
+.owner {
+  background-color: #2ecc71;
+  color: white;
+}
+
+.not-owner {
+  background-color: #e74c3c;
+  color: white;
+}
+
+.App-main {
+  display: flex;
+  gap: 40px; /* Aumentato il gap tra le colonne per bilanciare lo spazio */
+}
+
+.column-left, .column-right {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 40px; /* Aumentato il gap tra le sezioni */
+}
+
+.column-left {
+  max-width: 55%; /* Leggermente aumentato per bilanciare la larghezza */
+}
+
+.column-right {
+  max-width: 45%; /* Regolato per bilanciare lo spazio */
+}
+
+.product-section {
+  background: white;
+  padding: 30px; /* Aumentato il padding interno delle sezioni */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.admin-panel {
+  border-left: 6px solid #2ecc71;
+}
+
+.product-section h2 {
+  color: #2c3e50;
+  margin-bottom: 25px; /* Aumentato il margine inferiore */
+  font-size: 26px; /* Leggermente aumentato per maggiore leggibilità */
+}
+
+.form-container {
+  display: flex;
+  flex-direction: column;
+  gap: 20px; /* Aumentato il gap tra gli elementi del form */
+  margin-bottom: 25px; /* Aumentato il margine inferiore */
+}
+
+.form-input {
+  padding: 12px; /* Aumentato il padding per input più grandi */
+  margin: 0;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  width: 100%;
+  max-width: 400px; /* Aumentato per sfruttare lo spazio */
+  font-size: 16px;
+}
+
+.button-group {
+  display: flex;
+  gap: 20px; /* Aumentato il gap tra i bottoni */
+}
+
+.form-button {
+  padding: 12px 25px; /* Aumentato il padding per bottoni più grandi */
+  background-color: #3498db;
+  color: white;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 16px;
+  transition: background-color 0.3s;
+}
+
+.form-button:hover {
+  background-color: #2980b9;
+}
+
+.product-info {
+  margin-top: 25px; /* Aumentato il margine superiore */
+  padding: 20px; /* Aumentato il padding */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.product-info p {
+  margin: 10px 0; /* Aumentato il margine per maggiore leggibilità */
+  color: #34495e;
+}
+
+.product-history ul {
+  list-style: none;
+  padding: 0;
+}
+
+.product-history li {
+  border-bottom: 1px solid #ddd;
+  padding: 20px 0; /* Aumentato il padding */
+  color: #34495e;
+}
+
+.product-lists {
+  display: flex;
+  flex-direction: column;
+  gap: 25px; /* Aumentato il gap tra le liste */
+}
+
+.list-container {
+  padding: 20px; /* Aumentato il padding */
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  background-color: #f9f9f9;
+}
+
+.list-container h3 {
+  color: #2c3e50;
+  margin-bottom: 15px; /* Aumentato il margine inferiore */
+}
+
+.list-container ul {
+  list-style: none;
+  padding: 0;
+}
+
+.list-container li {
+  margin: 10px 0; /* Aumentato il margine */
+  padding: 12px; /* Aumentato il padding */
+  border-radius: 4px;
+}
+
+.trustful {
+  background-color: #e6f4ea;
+  color: #2ecc71;
+}
+
+.not-trustful {
+  background-color: #fce8e6;
+  color: #e74c3c;
+}
+
+.local {
+  background-color: #e6f0fa;
+  color: #3498db;
+}
+
+.not-local {
+  background-color: #fce8e6;
+  color: #e74c3c;
+}
